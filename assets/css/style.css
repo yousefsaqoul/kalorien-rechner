@@ -87,6 +87,9 @@ tr {
   section {
     background-color: #afd73f;
     margin: 10px;
-    height: 30em;
+    height: 40em;
+  }
+  select {
+    margin-bottom: 10px;
   }
 }
