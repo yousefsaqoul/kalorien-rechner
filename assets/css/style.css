@@ -83,7 +83,7 @@ tr {
   font-size: 22px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 780px) {
   section {
     background-color: #afd73f;
     margin: 10px;
