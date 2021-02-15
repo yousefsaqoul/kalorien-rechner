@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>js</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+
+<body id="myBody">
+  
+  <section>
+    <header>
+      <h1>
+        Kalorien rechner
+      </h1>
+    </header>
+    <div>
+      <form action="" class="myForm">
+        <label for="">Körpergröße</label>
+
+        <input type="number" id="inputUserBody" name="">
+
+
+        <label for="">Alter</label>
+        <input type="number" id="inputUserOld">
+
+        <label for="">Gewicht</label>
+        <input type="number" id="inputUserWeight">
+
+        <label for=""> Körperbau</label>
+        <div class="korperbau">
+          <label for="">Weiblich</label>
+          <input type="radio" name="korperbau" id="women" checked>
+
+          <label for="">Männlich</label>
+          <input type="radio" name="korperbau" id="men">
+        </div>
+        
+      </form>
+
+      <h4 class="aktivitat">Arbeits-und Freizeitaktivität</h4>
+      <select name="" id="myOptions">
+        
+        <option value="0.95" class="myopt">Schlafen</option>
+        <option value="1.2">nur sitzen oder liegen</option>
+        <option value="1.5">Ausschließlich sitzende Tätigkeit mit wenig oder keiner körperlichen Aktivität in der Freizeit, z.B. Büroarbeit</option>
+        <option value="1.7">Sitzende Tätigkeit mit zeitweilig gehender oder stehender Tätigkeit, z.B. Studierende, Fließbandarbeiter, Laboranten, Kraftfahrer</option>
+        <option value="1.9">Überwiegend gehende oder stehende Tätigkeit, z.B. Verkäufer, Kellner, Handwerker, Mechaniker, Hausfrauen</option>
+        <option value="2.2">Körperlich anstrengende berufliche Arbeit</option>
+      </select>
+      
+    </div>
+    <input type="button" value="Submit" onclick="calculate()">
+    <table>
+      <tr>
+        <th></th>
+        <th>kcal</th>
+        <th>kj</th>
+      </tr>
+      <tr>
+        <td>Grundumsatz</td>
+        <td id="grudResult1"></td>
+        <td id="grudResult2"></td>
+
+        
+      </tr>
+      <tr>
+        <td >Gesamtumsatz</td>
+        <td id="gesamtResult1"></td>
+        <td id="gesamtResult2"></td>
+
+        
+      </tr>
+    </table>
+
+
+
+
+  </section>
+	
+	
+	
+
+	
+
+
+<script src="assets/js/main.js">
+
+</script>
+</body>
+
+</html>
+
